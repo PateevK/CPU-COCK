@@ -1,0 +1,19 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(516,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  core.cpp
+D:\projects\VSstudio\CPU-COCK\CPU-COCK\CPU-COCK\logger.h(5,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'CPU-COCK/core.cpp')
+  
+D:\projects\VSstudio\CPU-COCK\CPU-COCK\CPU-COCK\core.cpp(145,59): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  WMIreader.cpp
+  GUI.cpp
+  main.cpp
+D:\projects\VSstudio\CPU-COCK\CPU-COCK\CPU-COCK\logger.h(5,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'main.cpp')
+  
+  Generating code
+  11 of 352 functions ( 3.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    69 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  CPU-COCK.vcxproj -> D:\projects\VSstudio\CPU-COCK\bin\Release\x64\CPU-COCK.exe
