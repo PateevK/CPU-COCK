@@ -1,0 +1,42 @@
+
+___________________________________________________________________________
+| ###| CPU | Cashes | Mother- | Memory | SPD | Graphics | Bench | about | | 
+| ###|     |        |  board  |        |     |          |       |       | |         
+|-------------------------------------------------------------------------|   
+| Processor general:                                                      |
+|    Name       |   Intel core i5 13450HX    |     Max. TDP  |  55.0 W |  |
+|  Code name    | `Raptor Lake-HX (Core i5)' |     Max. Vol. | 1.000 V |  |     
+|   Package     |      Socket 1700 LGA       |	  Technology |  7 nm   |  |    
+|       Specification | `13th Gen Intel(R) Core(TM) i5-13450HX' |         |
+|-------------------------------------------------------------------------|  
+| family 6      | model 7       | stepping 1 | architecture     x86    |  |
+| Ext. family 6 | Ext. model B7 |  ??????    | feature level x86-64-v3 |  | 
+|-------------------------------------------------------------------------|  
+| Core #(max.num.cores + 1General):   Core type( P || E ):                | 
+|  clocks: (per core)                  Cache:(per CoreType + total)       | 
+|    Core speed   | 2000.00 MHz |       L1|6x48Kb + 4x32Kb |12-way|64B|   |  cash size | assoc | cashline size |
+|    Multiplier | x11.0(4.0- 46.0 |     L2|6x48Kb + 4x32Kb |12-way|64B|   |  
+|    Bus speed     | 99.76 MHz |        L3|6x48Kb + 4x32Kb |12-way|64B|   | 
+|    Rated FSB?       | *** |           L4|6x48Kb + 4x32Kb |12-way|64B|   |  
+|-------------------------------------------------------------------------|  
+|     #socket 0 | #core type 0 | tot. cores 6P + 4E | tot.threads 16 |    |
+___________________________________________________________________________
+
+specification - brand_str
+Package - socket
+total cores - per socket
+threads - per socket
+
+Core type(General case):           | Ln total cash size | assoc | cashline size |
+ Cache:(per CoreType + total)       
+   L1|6x48Kb + 4x32Kb 
+   L2|6x48Kb + 4x32Kb    
+   L3|6x48Kb + 4x32Kb
+   L4|6x48Kb + 4x32Kb
+
+Core type(any core type chosen case):  | Core type cash size | assoc | cashline size |
+ Cache:(per CoreType + total)       
+   L1|6x48Kb | 12-way | 64B | 
+   L2|6x48Kb | 12-way | 64B |     
+   L3|6x48Kb | 12-way | 64B |    
+   L4|6x48Kb | 12-way | 64B | 
